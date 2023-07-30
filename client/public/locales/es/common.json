@@ -1,0 +1,172 @@
+{
+  "actions": {
+    "list": "Listar",
+    "create": "Crear",
+    "edit": "Editar",
+    "show": "Ver",
+    "clone": "Clonar"
+  },
+  "buttons": {
+    "create": "Crear",
+    "save": "Guardar",
+    "logout": "Salir",
+    "delete": "Borrar",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "confirm": "Esta seguro?",
+    "filter": "Filtrar",
+    "clear": "Limpiar",
+    "refresh": "Recargar",
+    "show": "Ver",
+    "undo": "Deshacer",
+    "import": "Importar",
+    "clone": "Clonar",
+    "archive": "Archivar",
+    "unArchive": "Desarchivar",
+    "hideArchived": "Ocultar Archivado",
+    "showArchived": "Ver Archivado",
+    "notAccessTitle": "No tienes permiso para acceder",
+    "hideColumns": "Ocultar columnas",
+    "clearFilters": "Limpiar filtros"
+  },
+  "warnWhenUnsavedChanges": "Estás seguro que quieres irte? Tiene cambios sin guardar.",
+  "notifications": {
+    "success": "Completado",
+    "error": "Error (Codigo de estado: {{statusCode}})",
+    "undoable": "Tienes {{seconds}} segundos para deshacer",
+    "createSuccess": "{{resource}} Creado con Exixto",
+    "createError": "There was an error creating {{resource}} (status code: {{statusCode}})",
+    "deleteSuccess": "Successfully deleted {{resource}}",
+    "deleteError": "Error when deleting {{resource}} (status code: {{statusCode}})",
+    "editSuccess": "Successfully edited {{resource}}",
+    "editError": "Error when editing {{resource}} (status code: {{statusCode}})",
+    "importProgress": "Importing: {{processed}}/{{total}}"
+  },
+  "loading": "Cargando",
+  "version": "Version",
+  "unknown": "Desconocido",
+  "yes": "Si",
+  "no": "No",
+  "tags": {
+    "clone": "Clonar"
+  },
+  "dashboard": {
+    "title": "Dashboard"
+  },
+  "spool": {
+    "spool": "Bobinas",
+    "fields": {
+      "id": "Id",
+      "filament_name": "Filamento",
+      "filament": "Filamento",
+      "material": "Material",
+      "used_weight": "Used Weight",
+      "remaining_weight": "Remaining Weight",
+      "used_length": "Used Length",
+      "remaining_length": "Remaining Length",
+      "location": "Localizacion",
+      "lot_nr": "Lot Nr",
+      "first_used": "Primer uso",
+      "last_used": "Ultimo uso",
+      "registered": "Registrado",
+      "comment": "Commenario",
+      "archived": "Archivado"
+    },
+    "fields_help": {
+      "used_weight": "How much filament has been used from the spool. A new spool should have 0g used.",
+      "location": "Where the spool is located if you have multiple locations where you store your spools.",
+      "lot_nr": "Manufacturer's lot number. Can be used to ensure a print has consistent color if multiple spools are used."
+    },
+    "titles": {
+      "create": "Crear bobina",
+      "clone": "Clonar Bobina",
+      "edit": "Editar Bobina",
+      "list": "Bobinas",
+      "show": "Ver Bobinas",
+      "archive": "Archivar Bobinas"
+    },
+    "messages": {
+      "archive": "Are you sure you want to archive this spool?"
+    }
+  },
+  "filament": {
+    "filament": "Filamentos",
+    "fields": {
+      "id": "Id",
+      "vendor_name": "Vendor",
+      "vendor": "Vendor",
+      "name": "Nombre",
+      "material": "Material",
+      "price": "Price",
+      "density": "Density",
+      "diameter": "Diametro",
+      "weight": "Weight",
+      "spool_weight": "Spool Weight",
+      "article_number": "Numero de articulo",
+      "registered": "Registrado",
+      "comment": "Comentario",
+      "settings_extruder_temp": "Extruder Temp",
+      "settings_bed_temp": "Temperatura de la cama",
+      "color_hex": "Color"
+    },
+    "fields_help": {
+      "name": "Filament name, to distinguish this filament type among others from the same vendor. Should contain the color for example.",
+      "material": "E.g. PLA, ABS, PETG, etc.",
+      "price": "Price of a full spool in the system configured currency.",
+      "weight": "The filament weight of a full spool (net weight). This should not include the weight of the spool itself, only the filament. It is what is usually written on the packaging.",
+      "spool_weight": "The weight of an empty spool. Currently not used for anything, but could be used by thirdparty apps to e.g. calculate the filament weight from a weight measurement.",
+      "article_number": "E.g. EAN, UPC, etc."
+    },
+    "titles": {
+      "create": "Cear Filamento",
+      "clone": "Clonar Filamento",
+      "edit": "Editar Filamento",
+      "list": "Filamentos",
+      "show": "Ver Filamento"
+    }
+  },
+  "vendor": {
+    "vendor": "Vendors",
+    "fields": {
+      "id": "Id",
+      "name": "Name",
+      "registered": "Registered",
+      "comment": "Comment"
+    },
+    "titles": {
+      "create": "Create Vendor",
+      "clone": "Clone Vendor",
+      "edit": "Edit Vendor",
+      "list": "Vendors",
+      "show": "Show Vendor"
+    }
+  },
+  "table": {
+    "actions": "Acciones"
+  },
+  "documentTitle": {
+    "default": "Spoolman",
+    "suffix": " | Spoolman",
+    "filament": {
+      "list": "Filaments | Spoolman",
+      "show": "#{{id}} Show Filament | Spoolman",
+      "edit": "#{{id}} Edit Filament | Spoolman",
+      "create": "Create Filament | Spoolman",
+      "clone": "#{{id}} Clone Filament | Spoolman"
+    },
+    "spool": {
+      "list": "Spools | Spoolman",
+      "show": "#{{id}} Show Spool | Spoolman",
+      "edit": "#{{id}} Edit Spool | Spoolman",
+      "create": "Create Spool | Spoolman",
+      "clone": "#{{id}} Clone Spool | Spoolman"
+    },
+    "vendor": {
+      "list": "Vendors | Spoolman",
+      "show": "#{{id}} Show Vendor | Spoolman",
+      "edit": "#{{id}} Edit Vendor | Spoolman",
+      "create": "Create Vendor | Spoolman",
+      "clone": "#{{id}} Clone Vendor | Spoolman"
+    }
+  }
+}
